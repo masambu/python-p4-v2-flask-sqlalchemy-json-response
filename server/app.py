@@ -17,7 +17,7 @@ db.init_app(app)
 @app.route('/')
 def index():
     return make_response(
-        '<h1>Welcome to the pet directory!</h1>',
+        '<h1> Welcome to the pet directory! </h1>',
         200
     )
 
